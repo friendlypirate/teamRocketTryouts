@@ -1,0 +1,67 @@
+body {
+    font-family: 'Signika Negative', sans-serif;
+    text-align: center;
+    background-color: beige
+}
+
+#title {
+    background-color: pink;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+#bombDisplay {
+    display: none;
+    font-size: 150px;
+    margin: 0 auto
+}
+
+#bombDisplay img {
+    width: 25%;
+    height: 25%;
+}
+
+#gameGrid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 402px;
+    height: 402px;
+    border: solid 2px black;
+    align-self: center;
+    margin: 0 auto;
+}
+
+button {
+    border-radius: 3px;
+}
+
+#startReset {
+    font-size: 20px;
+    padding: 10px;
+    margin: 15px
+}
+
+.place {
+    display: flex;
+    flex-direction: column;
+    width: 78px;
+    height: 78px;
+    border: 1px solid black;
+    background-color: aqua;
+    font-size: 12px;
+}
+
+.players {
+    font-size: 30px;
+}
+
+.nothingFound {
+    background-color: red
+}
+
+.pokeFound {
+    background-color: white;
+}
+
